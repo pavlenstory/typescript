@@ -24,3 +24,13 @@ function throwError(message: string): never {
 function infinite(): never {
     infinite() //while(true) {}
 }
+
+//Type
+type Login = string
+const login: Login = 'Pavel'
+
+type Id = string | number
+const id1: Id = '43'
+const id2: Id = 45
+
+type someType = string | null | undefined

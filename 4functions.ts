@@ -30,3 +30,5 @@ function position(a?: number, b?: number) {
 console.log('Empty position', position())
 console.log('One param', position(4))
 console.log('Two params', position(13,43))
+
+////////////////////////////

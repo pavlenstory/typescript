@@ -25,5 +25,16 @@ function handle(res: MyResponse | MyError) {
         return {
             info: res.header + res.reason
         }
+    }
 }
+
+//////////////////////////////
+
+type deviceType = 'mobile' | 'desktop' | 'VR'
+
+function setDeviseType(type: deviceType) {
+    /////
 }
+
+setDeviseType('mobile')
+setDeviseType('desktop')
